@@ -1,3 +1,8 @@
+"""
+string category
+"""
+
+
 class Solution(object):
     MORSE = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
              "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."]
@@ -21,5 +26,3 @@ class Solution(object):
 solution = Solution()
 
 print(solution.uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]))
-
-# "gin" -> "--...-."
